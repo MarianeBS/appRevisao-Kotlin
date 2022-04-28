@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:text="Insira os números:"
+      android:textSize="20dp"
+      android:layout_gravity="center_horizontal"/>
+
+  <EditText
+      android:id="@+id/edtNumber1"
+      android:inputType="number"
+      android:layout_gravity="center_horizontal"
+      android:labelFor="@+id/edtNumber1"
+      android:digits="0,1,2,3,4,5,6,7,8,9"
+      android:autofillHints="name"
+      android:layout_width="50dp"
+      android:layout_height="wrap_content"
+      android:text=""/>
+
+  <EditText
+      android:id="@+id/edtNumber2"
+      android:inputType="number"
+      android:layout_gravity="center_horizontal"
+      android:labelFor="@+id/edtNumber2"
+      android:digits="0,1,2,3,4,5,6,7,8,9"
+      android:autofillHints="name"
+      android:layout_width="50dp"
+      android:layout_height="wrap_content"
+      android:text=""/>
+
+  <Button
+      android:id="@+id/btn_button"
+      android:text="@string/btn_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
